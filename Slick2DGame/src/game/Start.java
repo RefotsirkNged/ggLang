@@ -12,7 +12,7 @@ public class Start {
 		try
 		{
 			AppGameContainer appgc;
-			appgc = new AppGameContainer(new Scene("QuadTree Demo"));
+			appgc = new AppGameContainer(new Scene("Snake"));
 			appgc.setDisplayMode(640, 480, false);
 			appgc.start();
 		}
