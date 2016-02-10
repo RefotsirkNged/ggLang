@@ -24,6 +24,6 @@ public class Scene extends BasicGame{
 	@Override
 	public void render(GameContainer gc, Graphics g) throws SlickException
 	{
-		g.drawString("Hello there", 100, 100);
+		g.drawString("This is the second branch", 100, 100);
 	}
 }
