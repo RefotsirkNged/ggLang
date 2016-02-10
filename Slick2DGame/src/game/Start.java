@@ -12,8 +12,8 @@ public class Start {
 		try
 		{
 			AppGameContainer appgc;
-			appgc = new AppGameContainer(new Scene("QuadTree Demo"));
-			appgc.setDisplayMode(640, 480, false);
+			appgc = new AppGameContainer(new Scene("PacMan"));
+			appgc.setDisplayMode(560, 700, false);
 			appgc.start();
 		}
 		catch (SlickException ex)
